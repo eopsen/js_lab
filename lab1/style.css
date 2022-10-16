@@ -1,0 +1,15 @@
+input {
+  width: 200px;
+  margin-bottom: 5px;
+}
+
+
+.input__box {
+  max-width: 300px;
+  float: left;
+}
+
+.result__box {
+  margin-top: 10px;
+  width: 300px;
+}
