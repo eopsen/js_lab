@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lab2</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <!-- <img class="slider-element fade" src="http://picsum.photos/seed/picsum/600/400" alt=""> -->
+
+  <div class="slider">
+    <div class="slides">
+      <input type="radio" name="radio-btn" id="radio1" checked>
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+
+      <div class="slide first"> <img src="http://picsum.photos/seed/picsum/600/400" alt=""></div>
+      <div class="slide"> <img src="http://picsum.photos/seed/picsum/600/400" alt=""></div>
+      <div class="slide"> <img src="http://picsum.photos/seed/picsum/600/400" alt=""></div>
+      <div class="slide"> <img src="http://picsum.photos/seed/picsum/600/400" alt=""></div>
+
+      <!-- auto navigation -->
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+      </div>
+    </div>
+
+    <!-- prev,next btns -->
+    <div class="arrows">
+      <a id="prev" class="prev">&#10094;</a>
+      <a id="next" class="next">&#10095;</a>
+    </div>
+
+    <!-- manual navigation -->
+    <div class="navigation-manual">
+      <label id="label-radio1" for="radio1" class="manual-btn"></label>
+      <label id="label-radio2" for="radio2" class="manual-btn"></label>
+      <label id="label-radio3" for="radio3" class="manual-btn"></label>
+      <label id="label-radio4" for="radio4" class="manual-btn"></label>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
