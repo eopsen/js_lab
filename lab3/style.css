@@ -1,0 +1,28 @@
+.buttons {
+  display: flex;
+}
+
+.btn {
+  --hue: 100;
+  --saturation: 100%;
+  padding: .5rem 1rem;
+  border: none;
+  background-color: hsl(var(--hue), var(--saturation), 50%);
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: inherit;
+  cursor: pointer;
+}
+
+.record-button {
+  --hue: 0;
+  --saturation: 0%;
+}
+
+.record-button.active {
+  --saturation: 100%;
+}
+
+.btn:hover {
+  background-color: hsl(var(--hue), var(--saturation), 30%);
+}
