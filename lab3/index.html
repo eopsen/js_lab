@@ -10,11 +10,31 @@
 </head>
 
 <body>
-
   <div class="buttons">
-    <button class="record-button btn">Record 1</button>
-    <button class="play-button btn">Play 1</button>
+    <div class="channel">
+      <span class="channel-txt" id="ch-1">Channel 1:</span>
+      <button class="record-button btn" id="ch-1">Record</button>
+      <button class="play-button btn" id="ch-1">Play</button>
+    </div>
+    <div class="channel">
+      <span class="channel-txt" id="ch-2">Channel 2:</span>
+      <button class="record-button btn" id="ch-2">Record</button>
+      <button class="play-button btn" id="ch-2">Play</button>
+    </div>
+    <div class="channel">
+      <span class="channel-txt" id="ch-3">Channel 3:</span>
+      <button class="record-button btn" id="ch-3">Record</button>
+      <button class="play-button btn" id="ch-3">Play</button>
+    </div>
+    <div class="channel">
+      <span class="channel-txt" id="ch-4">Channel 4:</span>
+      <button class="record-button btn" id="ch-4">Record</button>
+      <button class="play-button btn" id="ch-4">Play</button>
+    </div>
   </div>
+  <button class="play-all btn-clear btn" id="ch-4">Play selected</button>
+  <input type="number" id="tempo" value=160>
+  <button class="btn-clear btn" id="metronome-btn">Start</button>
 
   <div class="keys">
     <div id="btn1" class="key">
