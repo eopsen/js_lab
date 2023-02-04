@@ -14,16 +14,14 @@ const boxInput = document.querySelector('.input__box');
 function count() {
   var allInput = document.querySelectorAll('input');
   var inputArr = [];
-  i = 0;
   sum = 0;
 
   for (const element of allInput) {
     var actEl = parseInt(element.value);
 
     if (!isNaN(actEl)) {
-      inputArr[i] = actEl;
-      sum = sum + actEl;
-      i++;
+      inputArr.push(actEl);
+      sum += actEl;
     }
   }
 

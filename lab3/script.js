@@ -19,7 +19,7 @@ const channelNames = document.querySelectorAll('.channel-txt')
 const metronomeBtn = document.getElementById('metronome-btn')
 const channels = {}
 let selectedChannel
-let tempo = 128
+let tempo = 160
 let interval = 60000 / tempo;
 let isMetronomeActive = false;
 let metronomeIntervalId
